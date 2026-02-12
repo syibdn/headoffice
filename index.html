@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu Sistem Print</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,#1e3c72,#2a5298);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    color:white;
+}
+
+.container{
+    background:white;
+    color:#333;
+    width:400px;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+    text-align:center;
+}
+
+h1{
+    margin-bottom:10px;
+}
+
+.subtitle{
+    font-size:14px;
+    margin-bottom:25px;
+    color:#666;
+}
+
+.menu-button{
+    display:block;
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:none;
+    border-radius:8px;
+    background:#2a5298;
+    color:white;
+    font-size:14px;
+    cursor:pointer;
+    transition:0.3s;
+    text-decoration:none;
+}
+
+.menu-button:hover{
+    background:#1e3c72;
+}
+
+.footer{
+    margin-top:20px;
+    font-size:12px;
+    color:#999;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Sistem Print</h1>
+    <div class="subtitle">Manajemen Bukti Terima Barang</div>
+
+    <!-- Ganti nama file sesuai file kamu -->
+    <a href="bukti-terima-a4-full.html" class="menu-button">
+        📄 Print Bukti Terima (A4 - 3 per Halaman)
+    </a>
+
+    <!-- Kalau nanti kamu punya versi lain bisa tambah di sini -->
+    <!--
+    <a href="versi-pdf.html" class="menu-button">
+        📑 Export PDF
+    </a>
+    -->
+
+    <div class="footer">
+        © 2026 Sistem Internal Perusahaan
+    </div>
+</div>
+
+</body>
+</html>
